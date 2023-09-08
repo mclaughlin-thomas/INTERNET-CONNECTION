@@ -9,7 +9,7 @@ def connectEspKey():
     while isConnected is False:
         time.sleep(15)
         wire = Wireless()
-        wire.connect(ssid = 'ARRIS-7ED5-5G', password = '331334300637')
+        wire.connect(ssid = 'name', password = '333333')
         time.sleep(5)
         response = os.system("ping -c 1 " + hostname)
         if response == 0:
